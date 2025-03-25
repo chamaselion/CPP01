@@ -1,18 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.cpp                                         :+:      :+:    :+:   */
+/*   randomChump.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bszikora <bszikora@student.42helbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/25 12:33:09 by bszikora          #+#    #+#             */
-/*   Updated: 2025/03/25 12:58:54 by bszikora         ###   ########.fr       */
+/*   Created: 2025/03/25 12:49:25 by bszikora          #+#    #+#             */
+/*   Updated: 2025/03/25 12:52:09 by bszikora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <Zombie.hpp>
+#include "Zombie.hpp"
 
-Zombie::Zombie() { };
-Zombie::~Zombie() { std::cout << this->name << "has been evaporated" << std::endl; }
-Zombie::Zombie(std::string name) { this->name = name; }
-void Zombie::announce( void ) {std::cout << this->name << ":  BraiiiiiiinnnzzzZ...\n";}
+void Zombie::randomChump( std::string name )
+{
+	Zombie newZombo = Zombie(name);
+	
+	newZombo.announce();
+}
