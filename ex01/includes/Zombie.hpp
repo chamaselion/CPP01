@@ -6,7 +6,7 @@
 /*   By: bszikora <bszikora@student.42helbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 12:24:36 by bszikora          #+#    #+#             */
-/*   Updated: 2025/03/25 13:49:14 by bszikora         ###   ########.fr       */
+/*   Updated: 2025/03/25 14:04:13 by bszikora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,6 @@ public:
 	void	announce( void );
 };
 
-Zombie*	newZombie( std::string name );
-void 	randomChump( std::string name );
-Zombie* zombieHorde( int N, std::string name );
+Zombie* zombieHorde(int N, std::string name);
 
 # endif
