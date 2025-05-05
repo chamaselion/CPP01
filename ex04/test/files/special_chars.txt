@@ -1,0 +1,4 @@
+Line 1
+Special chars: !@#$%^&*()
+Tabs:	tab	tab
+End of file
