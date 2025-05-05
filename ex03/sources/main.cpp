@@ -6,7 +6,7 @@
 /*   By: bszikora <bszikora@student.42helbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 15:45:34 by bszikora          #+#    #+#             */
-/*   Updated: 2025/03/26 12:40:49 by bszikora         ###   ########.fr       */
+/*   Updated: 2025/05/04 13:18:27 by bszikora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,10 @@ int main()
 	club.setType("some other type of club");
 	jim.attack();
 	}
+	// {
+	// 	HumanA who;
+	// 	HumanB whos;
+	// 	who.attack();
+	// }
 	return 0;
 }	
